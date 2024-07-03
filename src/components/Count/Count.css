@@ -1,0 +1,29 @@
+.count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Занимает всю высоту экрана */
+}
+
+.count__sum {
+  font-size: 2rem; /* Размер шрифта для числа */
+  margin-bottom: 20px; /* Отступ между числом и кнопкой */
+}
+
+button {
+  width: 100px; /* Ширина кнопки */
+  height: 100px; /* Высота кнопки, чтобы сделать её круглой */
+  border-radius: 50%; /* Делает кнопку круглой */
+  background-color: white; /* Начальный цвет фона кнопки */
+  border: 2px solid black; /* Граница кнопки */
+  font-size: 1rem; /* Размер шрифта в кнопке */
+  cursor: pointer; /* Изменяет курсор на указатель */
+  outline: none; /* Убирает контур при фокусе */
+  transition: background-color 0.3s; /* Плавное изменение цвета фона */
+}
+
+button:active {
+  background-color: blue; /* Цвет фона кнопки при нажатии */
+  color: white; /* Цвет текста кнопки при нажатии */
+}
