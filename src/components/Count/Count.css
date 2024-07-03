@@ -4,7 +4,13 @@
   align-items: center;
   justify-content: center;
   height: 100vh; /* Занимает всю высоту экрана */
+	background-color:aquamarine;
 }
+
+.count__title {
+	font-size: 15px;
+}
+
 
 .count__sum {
   font-size: 2rem; /* Размер шрифта для числа */
